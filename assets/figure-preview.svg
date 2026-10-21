@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">Cursor-responsive hairline figure preview</title>
+  <desc id="desc">Minimal blue and violet contour lines ripple across a dark field toward a luminous center.</desc>
+  <defs>
+    <radialGradient id="bg" cx="53%" cy="50%" r="74%">
+      <stop stop-color="#1a233c"/>
+      <stop offset=".53" stop-color="#101724"/>
+      <stop offset="1" stop-color="#090d16"/>
+    </radialGradient>
+    <linearGradient id="lines" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#7aa2f7" stop-opacity=".08"/>
+      <stop offset=".5" stop-color="#7dcfff" stop-opacity=".66"/>
+      <stop offset="1" stop-color="#bb9af7" stop-opacity=".15"/>
+    </linearGradient>
+    <radialGradient id="glow"><stop stop-color="#7dcfff" stop-opacity=".22"/><stop offset="1" stop-color="#7dcfff" stop-opacity="0"/></radialGradient>
+    <pattern id="dots" width="32" height="32" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".65" fill="#7aa2f7" opacity=".16"/></pattern>
+    <clipPath id="frame"><rect width="1200" height="320" rx="16"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="320" fill="url(#bg)"/>
+    <rect width="1200" height="320" fill="url(#dots)"/>
+    <ellipse cx="625" cy="160" rx="285" ry="230" fill="url(#glow)"/>
+    <g fill="none" stroke="url(#lines)" stroke-width="1">
+      <ellipse cx="625" cy="160" rx="38" ry="28" transform="rotate(-18 625 160)"/>
+      <ellipse cx="625" cy="160" rx="65" ry="46" transform="rotate(-18 625 160)"/>
+      <ellipse cx="625" cy="160" rx="94" ry="64" transform="rotate(-18 625 160)"/>
+      <ellipse cx="625" cy="160" rx="125" ry="81" transform="rotate(-18 625 160)"/>
+      <ellipse cx="625" cy="160" rx="159" ry="98" transform="rotate(-18 625 160)"/>
+      <ellipse cx="625" cy="160" rx="195" ry="117" transform="rotate(-18 625 160)"/>
+      <ellipse cx="625" cy="160" rx="233" ry="137" transform="rotate(-18 625 160)"/>
+      <ellipse cx="625" cy="160" rx="275" ry="158" transform="rotate(-18 625 160)"/>
+      <ellipse cx="625" cy="160" rx="320" ry="181" transform="rotate(-18 625 160)"/>
+      <ellipse cx="625" cy="160" rx="368" ry="207" transform="rotate(-18 625 160)"/>
+      <ellipse cx="625" cy="160" rx="418" ry="233" transform="rotate(-18 625 160)"/>
+      <ellipse cx="625" cy="160" rx="472" ry="262" transform="rotate(-18 625 160)"/>
+      <ellipse cx="625" cy="160" rx="530" ry="293" transform="rotate(-18 625 160)"/>
+      <ellipse cx="625" cy="160" rx="591" ry="325" transform="rotate(-18 625 160)"/>
+      <ellipse cx="625" cy="160" rx="655" ry="359" transform="rotate(-18 625 160)"/>
+      <ellipse cx="625" cy="160" rx="724" ry="396" transform="rotate(-18 625 160)"/>
+      <ellipse cx="625" cy="160" rx="797" ry="435" transform="rotate(-18 625 160)"/>
+    </g>
+    <circle cx="625" cy="160" r="3" fill="#7dcfff"/>
+    <circle cx="625" cy="160" r="10" fill="none" stroke="#7dcfff" opacity=".45"/>
+    <path d="M24 24h18M24 24v18M1176 24h-18M1176 24v18M24 296h18M24 296v-18M1176 296h-18M1176 296v-18" fill="none" stroke="#7aa2f7" opacity=".4"/>
+  </g>
+</svg>
